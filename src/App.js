@@ -1,11 +1,10 @@
 import './App.css';
-import PaginaHTML from './components/PaginaHTML';
-
+import Home from './components/Home';
 
 function App() {
   return (
-    <div className="App">
-        <PaginaHTML/>
+    <div className='App'>
+        <Home/>
     </div>
   );
 }

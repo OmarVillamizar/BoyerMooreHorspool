@@ -1,6 +1,5 @@
 import React from 'react';
 import { useSpring, animated } from '@react-spring/web';
-import './Card.css'; // Asegúrate de tener estilos básicos para tu card
 
 const Card = ({ title, description, image, onClick }) => {
     const props = useSpring({
